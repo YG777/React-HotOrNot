@@ -2,7 +2,6 @@ import React from "react";
 import ReactDom from "react-dom";
 import Seasons from './Season';
 
-
 export default class App extends React.Component {
   
 state = { lat: null, errMsg: "" };
@@ -23,7 +22,8 @@ state = { lat: null, errMsg: "" };
     }
     if (!this.state.errMsg && this.state.lat) {
       return (
-      <Seasons lat={this.state.lat}/>
+        <div className="season-wrapper"><Seasons lat={this.state.lat}/></div>
+      
       )
     }
     return <div>Please wait, latitude is loading!</div>;
