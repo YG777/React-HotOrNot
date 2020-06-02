@@ -1,6 +1,8 @@
 
-Geolocation API https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+Geolocation API: https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API .
 
+Icons, spinner from Semantic-UI.
+_____________________________________________________________
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
